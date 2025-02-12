@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 협업 가이드 - 위즈플로우</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/image/logo.png" alt="위즈플로우 로고" />
+        <span>나만의 AI 소통 가이드, 위즈플로우</span>
+      </div>
+      <button
+        class="cta-btn top"
+        onClick="window.open('https://forms.gle/Lj3SegPqG6SRSABc6')"
+      >
+        설문 참여하고 AI 서비스 먼저 만나보기 →
+      </button>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+      <img src="./assets/image/hero_txt.png" alt="히어로영역 텍스트" />
+      <p>
+        기획서 반려, 기술 용어 고민? 이젠 걱정 끝!<br />개발팀과 찰떡궁합 🤝 AI
+        가이드로 소통하세요
+      </p>
+
+      <!-- 히어로 하단 둥둥 버튼 -->
+      <div class="scroll-btn" onclick="scrollToNext()">
+        <img src="./assets/image/arrow.png" alt="" />
+      </div>
+    </section>
+
+    <section class="pain-points">
+      <h2>이런 문제, 겪어보셨나요?</h2>
+      <div class="pain-point-list">
+        <div class="pain-point">
+          <!-- <div class="avatar"></div> -->
+          <img src="./assets/image/pain01.png" alt="" />
+          <p>
+            개발팀 피드백 받을 때마다<br />기획서를 수정하는 게 너무 힘들어요!
+            😭
+          </p>
+        </div>
+        <div class="pain-point">
+          <!-- <div class="avatar"></div> -->
+          <img src="./assets/image/pain02.png" alt="" />
+          <p>
+            왜 일정이 밀리는지 모르겠어요..<br />기술적으로 뭐가 필요한지
+            몰라서요
+          </p>
+        </div>
+        <div class="pain-point">
+          <!-- <div class="avatar"></div> -->
+          <img src="./assets/image/pain03.png" alt="" />
+          <p>
+            개발팀이 '이건 API 연동이 필요해요'<br />라고 하면 그게 뭔지
+            몰라요...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h2 class="section-title">이제 AI가 해결해줄게요!</h2>
+      <div class="feature-container">
+        <div class="feature feature-left">
+          <div class="feature-content">
+            <h3>📋 기획서 자동 피드백</h3>
+            <p>
+              기획서, 개발팀이 반려하기 전에 AI로 먼저 점검!<br />AI가 기술적
+              오류를 사전에 분석해요.
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./assets/image/feature01.png" alt="이미지" />
+          </div>
+        </div>
+
+        <div class="feature feature-right">
+          <div class="feature-content">
+            <h3>📌 기술 용어 변환</h3>
+            <p>
+              어려운 기술 용어, AI가 쉽게 바꿔서 설명해줘요!<br />기획자가 바로
+              이해할 수 있도록 용어 자동 변환
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./assets/image/feature02.png" alt="이미지" />
+          </div>
+        </div>
+
+        <div class="feature feature-left">
+          <div class="feature-content">
+            <h3>📅 일정 조율 자동 추천</h3>
+            <p>
+              프로젝트 일정? AI가 개발 의존성까지 고려해서 추천!<br />개발
+              의존성을 분석하여 현실적인 일정 설정 가능.
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./assets/image/feature03.png" alt="이미지" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 사용자 후기 -->
+    <section class="testimonials">
+      <h2>개발팀과의 소통, 더 이상 고민하지 마세요!</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial-track">
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "개발팀과 소통할 때 기술 용어가 어려웠는데,<br />AI가 쉽게
+              변환해준다면 이해가 확실히 빨라질 것 같아요."
+            </p>
+            <span class="user">CS 매니저, IT 기업</span>
+          </div>
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "일정 조율이 막막했는데 AI가 우선순위를 제안해준다면<br />개발팀과
+              협의할 때 훨씬 수월할 것 같아요."
+            </p>
+            <span class="user">프로젝트 매니저, 중견 IT 기업</span>
+          </div>
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "기획서가 반려될 때마다 이유를 몰라서 답답한데,<br />AI가 미리
+              점검해준다면 불필요한 수정이 줄어들 것 같아요."
+            </p>
+            <span class="user">UX 기획자, 스타트업</span>
+          </div>
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "기획과 개발의 간극을 AI가 채워준다면,기술적인<br />배경지식
+              없이도 개발팀과 논의할 때 자신감이 생길 것 같아요."
+            </p>
+            <span class="user">서비스 기획자, AI 솔루션 회사</span>
+          </div>
+          <!-- 첫 번째 요소 복제: 무한 슬라이드 효과를 위해 추가 -->
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "개발팀과 소통할 때 기술 용어가 어려웠는데,<br />AI가 쉽게
+              변환해준다면 이해가 확실히 빨라질 것 같아요."
+            </p>
+            <span class="user">CS 매니저, IT 기업</span>
+          </div>
+          <div class="testimonial">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="review">
+              "일정 조율이 막막했는데 AI가 우선순위를 제안해준다면<br />개발팀과
+              협의할 때 훨씬 수월할 것 같아요."
+            </p>
+            <span class="user">프로젝트 매니저, 중견 IT 기업</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-impact">
+      <h2>
+        위즈플로우가 기획과 개발의 간극을 메웁니다. <br />
+        AI로 협업 효율을 높이세요!
+      </h2>
+      <div class="impact-list">
+        <div class="impact-item">
+          <h3>기획서 검토 시간 단축</h3>
+          <p>AI가 기획서를 개발팀이<br />이해할 수 있도록 자동 변환합니다</p>
+        </div>
+        <div class="impact-item">
+          <h3>소통 오류 감소</h3>
+          <p>
+            기획자의 요청을 기술 용어로 변환,<br />개발팀과의 소통이
+            매끄러워집니다
+          </p>
+        </div>
+        <div class="impact-item">
+          <h3>일정 조율 최적화</h3>
+          <p>개발 일정, AI 분석으로<br />현실적으로 조정해 드립니다</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="survey-section">
+      <div class="survey-txt">
+        <h2>개발팀과의 협업, 아직도 어렵나요?</h2>
+        <p>AI가 기획서 변환, 기술 용어 번역, 일정 조율까지 해결해 드립니다!</p>
+      </div>
+      <div class="survey-card">
+        <h2>이런 서비스,<br />사용해 보고 싶으신가요?</h2>
+        <img src="./assets/image/icon.png" alt="" />
+        <div class="survey-options">
+          <button
+            class="survey-btn yes-btn"
+            onClick="window.open('https://forms.gle/Lj3SegPqG6SRSABc6')"
+          >
+            ✅ 네, 개발팀과 협업을 더 쉽게 만들고 싶어요!
+          </button>
+          <button class="survey-btn no-btn">
+            ❌ 아니요, 현재 방식이 더 좋아요.
+          </button>
+        </div>
+      </div>
+
+      <!-- 설문조사 팝업 -->
+      <div class="popup" id="feedback-popup">
+        <div class="popup-content">
+          <h3>
+            🙌 잠시만요! 귀한 의견, 놓치고 싶지 않아요.<br />"왜 사용하고 싶지
+            않으신지" 솔직한 의견을 들려주시면,<br />더 나은 서비스로 발전할 수
+            있어요!
+          </h3>
+          <p>
+            여러분의 생각이 서비스 개선에 큰 힘이 됩니다. 1분만 투자해 주실 수
+            있을까요?
+          </p>
+
+          <a
+            href="https://forms.gle/Lj3SegPqG6SRSABc6"
+            class="survey-link"
+            target="_blank"
+          >
+            👉 설문조사 참여하기
+          </a>
+
+          <button class="close-popup">그냥 관심 없어요 🥹</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <strong>WizFlow</strong>
+          <div class="legal-links">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">청소년보호정책</a>
+            <a href="#">고객센터</a>
+          </div>
+          <p class="copyright">© 2025 WizFlow. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 우측 배너 -->
+    <aside class="side-banner">
+      <!-- 앱 다운로드 배너 -->
+      <div class="banner-item">
+        <div class="banner-icon">
+          <img src="./assets/image/logo.png" alt="앱 아이콘" />
+        </div>
+        <div class="banner-content">
+          <strong>Download</strong>
+          <p>위즈플로우 앱 설치하기</p>
+          <div class="qr-code">QR코드</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 하단 스크롤 CTA 버튼 -->
+    <div class="bottom-cta">
+      <div class="cta-tooltip">
+        개발자와 더 쉽게 협업하는 법, 지금 경험해보세요!
+      </div>
+      <button class="cta-btn btm">
+        AI 가이드로 기획이 쉬워지는지, 지금 확인해보세요!
+      </button>
+    </div>
+
+    <div id="popupModal" class="popup-modal">
+      <div class="popup-content">
+        <h3>🚀 서비스 준비 중입니다!</h3>
+        <p>설문조사에 참여하면 AI 가이드를 먼저 만나볼 수 있어요! 😊</p>
+        <a
+          href="https://forms.gle/Lj3SegPqG6SRSABc6"
+          class="survey-link"
+          target="_blank"
+          >👉 설문조사 참여하기</a
+        >
+        <button id="closePopup" class="popup-close-btn">닫기</button>
+      </div>
+    </div>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
